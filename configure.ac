@@ -4,7 +4,6 @@ AC_DEFINE(API_VERSION, 9, api version)
 
 AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS(config.h)
-AM_PATH_CPPUNIT(1.9.6)
 
 AC_PROG_CXX
 AC_PROG_LIBTOOL
@@ -75,5 +74,4 @@ AC_OUTPUT([
 	src/rpc/Makefile
 	src/ui/Makefile
 	src/utils/Makefile
-        test/Makefile
 ])
